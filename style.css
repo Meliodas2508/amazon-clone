@@ -1,0 +1,256 @@
+* {
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 1px solid white;
+}
+
+.navbar {
+    background-color: #0f1111;
+    height: 60px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo {
+    background-image: url(Amazon-Logo-White.png);
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+}
+
+.address {
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 18px;
+}
+
+.boxline2 {
+    font-size: 14px;
+}
+
+.address2 {
+    display: flex;
+    margin-left: 5px;
+}
+
+.nav-search {
+    display: flex;
+    background-color: #0f1111;
+    height: 40px;
+    width: 900px;
+    border-radius: 4px;
+    justify-content: space-evenly;
+}
+
+.option {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.search-input {
+    width: 340px;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.seacrhicon {
+    width: 45px;
+    background-color: #febd68;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.country-name {
+    background-color: #0f1111;
+    color: white;
+    font-weight: bolder;
+    border: 0px;
+}
+
+.boxline1 {
+    font-size: 0.8rem;
+}
+
+.boxline2 {
+    font-size: 16px;
+    font-weight: bolder;
+    background-color: #0f1111;
+    color: white;
+    font-size: 16px;
+    border: 0px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+.nav-cart {
+    display: flex;
+}
+
+.nav-cart i {
+    font-size: 26px;
+}
+
+.panel {
+    display: flex;
+    background-color: #212929;
+}
+
+.panel-menu {
+    background-color: #212929;
+    display: flex;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-menu2 {
+    text-decoration: none;
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.banner {
+    background-image: url(61lwJy4B8PL._SX3000_.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 1500px;
+    height: 330px;
+    margin-left: 20px;
+}
+
+.banner-line {
+    background-color: white;
+    text-align: center;
+    height: 20px;
+    display: flex;
+    width: 95%;
+    font-size: 0.85rem;
+    justify-content: center;
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+
+.banner-line a {
+    text-decoration: none;
+    color: #007185;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card {
+    height: 350px;
+    width: 23%;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 21px;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.card1-col1 {
+    display: flex;
+}
+
+.card1-col2 {
+    display: flex;
+}
+
+.card1-img1 {
+    margin-top: 10px;;
+    font-size: 12px;
+}
+
+.card1-img2 {
+    margin-top: 10px;;
+    font-size: 12px;
+}
+
+.card1-img3 {
+    margin-top: 10px;;
+    font-size: 12px;
+}
+
+.card1-img4 {
+    margin-top: 10px;;
+    font-size: 12px;
+}
+
+.c1img1 {
+    background-image: url(Fuji_Quad_Headset_1x._SY116_CB667159060_.jpg);
+    background-size: cover;
+    height: 110px;
+    width: 150px;
+}
+
+.c1img2 {
+    background-image: url(Fuji_Quad_Keyboard_1x._SY116_CB667159063_.jpg);
+    background-size: cover;
+    height: 110px;
+    width: 150px;
+}
+
+.c1img3 {
+    background-image: url(Fuji_Quad_Mouse_1x._SY116_CB667159063_.jpg);
+    background-size: cover;
+    height: 110px;
+    width: 150px;
+}
+
+.c1img4 {
+    background-image: url(Fuji_Quad_Chair_1x._SY116_CB667159060_.jpg);
+    background-size: cover;
+    height: 110px;
+    width: 150px;
+}
+
+.seemore {
+    margin-top: 30px;
+    margin-left: 20px;
+    color: #007185;
+    font-size: 12px;
+    text-align: start;
+}
